@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/jenkins-demo-app"
+        IMAGE_NAME = "dba11@pitt.edu/jenkins-demo-app"
     }
     
     stages {
